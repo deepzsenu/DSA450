@@ -6,7 +6,6 @@ public class CyclicallyRotateArrayByOne {
         for(int i =0; i<d; i++){
             RotateByOne(arr);
         }
-
     }
     public static void RotateByNReverseMethod(int[] arr, int d){
         int k = d%arr.length;
